@@ -22,4 +22,9 @@ public class HelloController {
     public String list(){
     	return "list";
     }
+    
+    public String add(){
+    	
+    	return "app";
+    }
 }
