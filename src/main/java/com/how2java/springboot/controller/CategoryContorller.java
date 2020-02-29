@@ -10,6 +10,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.how2java.springboot.dao.CategoryDao;
@@ -61,6 +62,8 @@ public class CategoryContorller{
         m.addAttribute("c", c);
         return "editCategory";
     }
+    
+ 
     
     
 }
