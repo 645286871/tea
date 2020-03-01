@@ -21,7 +21,7 @@ public class CategoryContorller{
     @Autowired
 	CategoryDao categoryDao;
 	
-    @RequestMapping("/listCategory")
+    /*@RequestMapping("/listCategory")
 	public String listCategory(Model m,@RequestParam(value = "start", defaultValue = "0") int start,
 			@RequestParam(value = "size", defaultValue = "5") int size){
     	
@@ -61,7 +61,7 @@ public class CategoryContorller{
         Category c= categoryDao.getOne(id);
         m.addAttribute("c", c);
         return "editCategory";
-    }
+    }*/
     
  
     
